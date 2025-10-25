@@ -134,7 +134,7 @@ class _SecurityCheckScreenState extends State<SecurityCheckScreen> {
               width: double.infinity,
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: _getStatusColor(status).withOpacity(0.1),
+                color: _getStatusColor(status).withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: _getStatusColor(status), width: 2),
               ),
