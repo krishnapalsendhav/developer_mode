@@ -1,3 +1,8 @@
+## 0.0.2
+* Added support for 16KB page size compatibility
+* Enabled Android support in the example app
+* Enabled iOS support in the example app
+
 ## 0.0.1
 
 * Initial release

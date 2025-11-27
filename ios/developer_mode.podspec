@@ -1,17 +1,13 @@
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint developer_mode.podspec` to validate before publishing.
-#
 Pod::Spec.new do |s|
   s.name             = 'developer_mode'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A Flutter plugin for developer mode and jailbreak detection.'
   s.description      = <<-DESC
 A Flutter plugin for developer mode and jailbreak detection.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/krishnapalsendhav/developer_mode'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Krishnapal Sendhav' => 'krishnapalsendhav591@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
